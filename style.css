@@ -577,6 +577,11 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
+#page-header.blog-header{
+    background-image: url(./images/bgblog.avif);
+   
+    
+}
 /*  started media query */
 
 @media (max-width:799px) {
