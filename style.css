@@ -652,6 +652,30 @@ footer .copyright{
     text-align: center;
     z-index: -9;
 }
+#page-haeder .about-header{
+  background-image: url(./images/bg1.avif);
+}
+#about-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 20px 100px 20px;
+}
+#about-head image{
+  width: 50%;
+  height: auto;
+}
+#para-about p{
+    font-size: 16px;
+    color: #465b54;
+    margin: 15px 0 20px 0;
+}
+#about-head #para-about{
+    padding-left: 40px;
+}
+#about-app{
+   text-align: center;
+}
 /*  started media query */
 
 @media (max-width:799px) {
@@ -820,12 +844,12 @@ footer .copyright {
 }
 #prodetails .single-pro-details {
         width: 100%;
-       ;
-    };
+       
+    }
 
-    /* blog page */
+   
     #blog {
-        padding: 100px 20px 0 20px;
+        padding: 150px 20px 100px 20px;
     }
     #blog .blog-box {
         display: flex;
